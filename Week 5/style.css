@@ -1,0 +1,45 @@
+body, html { 
+  font-family: 'Helvetica', 
+  cursive; font-size: 1.09rem; 
+  color: #23112e; 
+} 
+html { 
+  scroll-behavior: smooth; 
+} 
+header { 
+  width: 800px; 
+  display: flex; 
+  justify-content: space-between; 
+  align-items: center;
+  padding: 30px; 
+  margin: 30px;
+}
+h1 {
+  font-size: 2rem;
+  color: #350150;
+  margin: 0;
+}
+button#btn {
+  display: inline-block;
+  padding: 10px 20px;
+  background: linear-gradient(15deg, #350150, #af23ae);
+  color: #ffffff;
+  border-radius: 2px;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+button#btn:hover {
+  background: linear-gradient(15deg, #43016f, #350150);
+  box-shadow: 0px 3px 5px rgba(0, 0, 0, 0.2);
+  transform: translateY(2px);
+}
+#city-info {
+  padding: 35px;
+  margin: 30px;
+}
+.hide-me {
+  visibility: hidden;
+  opacity: 0;
+  transform: scale(.75);
+}
